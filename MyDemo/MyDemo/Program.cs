@@ -347,9 +347,9 @@ namespace MyDemo
 
             string ddd = "0020-08-17T16:35:47+05:53:28";
             string dd1 = "2020-09-15T12:58:56.06674+05:30";
-            DateTime dateTime = Convert.ToDateTime(ddd);
+            //DateTime dateTime = Convert.ToDateTime(ddd);
 
-            Console.WriteLine(dateTime);
+            //Console.WriteLine(dateTime);
 
 
             //Console.WriteLine(System.Data.SqlTypes.SqlDateTime.MaxValue.Value.ToString());
@@ -404,7 +404,7 @@ namespace MyDemo
             //string dt = "01-Jan-2019";
             //DateTime dateTime = DateTime.Parse(dt);
             //DateTime date = DateTime.Now.AddMonths(1);
-
+            Console.WriteLine("Jeebendu Branch");
             Console.ReadLine();
         }
     }
